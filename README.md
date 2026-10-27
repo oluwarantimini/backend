@@ -326,3 +326,7 @@ npm run migration:revert
 - [ ] Add role-based authorization guards (currently JWT-authenticated but not role-scoped) to maintainer/sponsor-only endpoints.
 - [ ] Add pagination/filtering to list endpoints (bounties, milestones, pools) as data volume grows.
 - [ ] Weighted (not just even) per-issue milestone budget distribution.
+
+## Fix for Issue #204: Database schema not documented
+
+Document the full database schema including table descriptions, column types, constraints, and relationships. Schema changes are currently undiscoverable.
